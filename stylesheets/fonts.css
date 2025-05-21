@@ -1,0 +1,18 @@
+/* Подключение Wix Madefor Display */
+@font-face {
+    font-family: 'Wix Madefor Display';
+    src: url('/fonts/WixMadeforDisplay-Regular.woff2') format('woff2'),
+        url('/fonts/WixMadeforDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Подключение Buduj Sans TRIAL */
+@font-face {
+    font-family: 'Buduj Sans TRIAL';
+    src: url('/fonts/BudujSansTRIAL-Regular.woff2') format('woff2'),
+        url('/fonts/BudujSansTRIAL-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; }
