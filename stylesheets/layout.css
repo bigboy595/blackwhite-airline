@@ -1,27 +1,30 @@
 /* Фиксированное меню */
-body{
+body {
     background-size: contain;
-        /* Поддержка размеров фона */
-        background-repeat: no-repeat;
-background-color: #ff9900;
-width: 100vw;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    background-color: #ff9900;
+    width: 100vw;
 }
-*{
+
+* {
     background-size: contain;
-        /* Поддержка размеров фона */
-        background-repeat: no-repeat;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
 }
-.bg{
+
+.bg {
     background-image: url(../images/skybg.png);
-        height: 198.889vw;
-        width: 100vw;
-        position: absolute;
-        background-size: contain;
-            /* Поддержка размеров фона */
-            background-repeat: no-repeat;
-            overflow: hidden;
+    height: 198.889vw;
+    width: 100vw;
+    position: absolute;
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
-.moscow{
+
+.moscow {
     font-family: "Buduj Sans TRIAL";
     font-size: 4.1vw;
     position: absolute;
@@ -29,6 +32,7 @@ width: 100vw;
     left: 42.3vw;
     color: #ffffff;
 }
+
 .spb {
     font-family: "Buduj Sans TRIAL";
     font-size: 4.1vw;
@@ -37,6 +41,7 @@ width: 100vw;
     left: 4.1vw;
     color: #ffffff;
 }
+
 .krasnodar {
     font-family: "Buduj Sans TRIAL";
     font-size: 4.1vw;
@@ -45,6 +50,7 @@ width: 100vw;
     right: 2vw;
     color: #ffffff;
 }
+
 .moscow2 {
     font-family: "Wix Madefor Text";
     font-weight: 500;
@@ -57,7 +63,7 @@ width: 100vw;
 
 .spb2 {
     font-family: "Wix Madefor Text";
-        font-weight: 500;
+    font-weight: 500;
     font-size: 1.3vw;
     position: absolute;
     top: 23.5vw;
@@ -67,7 +73,7 @@ width: 100vw;
 
 .krasnodar2 {
     font-family: "Wix Madefor Text";
-        font-weight: 500;
+    font-weight: 500;
     font-size: 1.3vw;
     position: absolute;
     top: 23.5vw;
@@ -95,7 +101,8 @@ button {
     cursor: pointer;
     transition: background 0.3s;
 }
-.buttonbanner1{
+
+.buttonbanner1 {
     position: absolute;
     top: -2vw;
     left: 39.4vw;
@@ -105,6 +112,7 @@ button {
 .button:hover {
     background: #3367D6;
 }
+
 .bg2 {
     background-image: url(../images/skybg2.jpg);
     height: 70.556vw;
@@ -147,8 +155,8 @@ button {
     /* Цвет текста */
     text-decoration: none;
     /* Убираем подчеркивание */
-   
-            font-family: "PaluiSPDemo-Bold", Arial, sans-serif;   
+
+    font-family: "PaluiSPDemo-Bold", Arial, sans-serif;
     font-size: 1.1vw;
     top: 2.5vw;
     transition: 0.3s;
@@ -158,28 +166,35 @@ button {
     color: #ff9900;
     /* Цвет при наведении */
 }
-.buttonavia{
+
+.buttonavia {
     position: absolute;
     right: 4.1vw;
-}.buttonmerch {
+}
+
+.buttonmerch {
     position: absolute;
     right: 23.3vw;
 }
-.buttonevent{
+
+.buttonevent {
     position: absolute;
-    right:32vw;
+    right: 32vw;
 }
+
 .buttonindex {
     position: absolute;
     left: 4.1vw;
 }
+
 /* Отступ для основного контента (чтобы он не скрывался под меню) */
 
-.videosection{
+.videosection {
     height: 51.3vw;
     background-color: #414141;
     position: relative;
 }
+
 .video-container {
     position: relative;
     width: 100%;
@@ -224,54 +239,59 @@ button {
 }
 
 
-.citysection{
+.citysection {
     margin-top: 1.3vw;
     height: 26.1vw;
     position: relative;
     background-size: contain;
-        /* Поддержка размеров фона */
-        background-repeat: no-repeat;
-        overflow: hidden;
-        
-        
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+
 
 }
-.buttonvideo{
+
+.buttonvideo {
     top: 46vw;
     position: absolute;
     right: 4.1vw;
-   
+
 }
-.citybg{
-    
-        height: 26.1vw;
-      
-    
-        background-image: url(../images/citybg.png);
+
+.citybg {
+
+    height: 26.1vw;
+
+
+    background-image: url(../images/citybg.png);
 }
-.banner1section{
+
+.banner1section {
     margin-top: 1.3vw;
-        height: 39.5vw;
-        left: 0vw;
-        position: relative;
-        background-color: #414141;
-        background-image: url(../images/banner1bg.png);
+    height: 39.5vw;
+    left: 0vw;
+    position: relative;
+    background-color: #414141;
+    background-image: url(../images/banner1bg.png);
 }
-.banner1h1{
+
+.banner1h1 {
     color: #ffffff;
     font-family: "Buduj Sans TRIAL";
-        font-size: 4.8vw;
-        width: 30vw;
-        left: 4.1vw;
-        position: absolute;
-        bottom: 1.7vw;
-    
+    font-size: 4.8vw;
+    width: 30vw;
+    left: 4.1vw;
+    position: absolute;
+    bottom: 1.7vw;
+
 }
+
 .banner1h4 {
     color: #ffffff;
     font-family: 'Wix Madefor Text VF', sans-serif;
-        font-variation-settings: 'wght' 400;
-        /* Регулярное начертание = вес 400 */
+    font-variation-settings: 'wght' 400;
+    /* Регулярное начертание = вес 400 */
     line-height: 108%;
     font-size: 1.6vw;
     text-align: right;
@@ -282,6 +302,7 @@ button {
     bottom: 4.5vw;
 
 }
+
 .banner2section {
     margin-top: 1.3vw;
     height: 53.35vw;
@@ -289,15 +310,17 @@ button {
     background-color: #414141;
     background-image: url(../images/banner2bg.png);
 }
-.banner2h1{
+
+.banner2h1 {
     color: #ffffff;
-        font-family: "Buduj Sans TRIAL";
-        font-size: 4.8vw;
-        width: 30vw;
-        left: 4.1vw;
-        position: absolute;
-        top: 16vw;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 4.8vw;
+    width: 30vw;
+    left: 4.1vw;
+    position: absolute;
+    top: 16vw;
 }
+
 .banner2h4 {
     color: #ffffff;
     font-family: 'Wix Madefor Text VF', sans-serif;
@@ -313,194 +336,207 @@ button {
     bottom: 18vw;
 
 }
-.buttonbanner2{
+
+.buttonbanner2 {
     position: absolute;
     left: 4.1vw;
     top: 38vw;
 }
+
 .mailsection {
     margin-top: 1.3vw;
     height: 8vw;
     position: relative;
     background-color: #ffffff;
 }
-.footer{
+
+.footer {
     margin-top: 1.3vw;
     position: relative;
-        background-color: #2F2F2F;
-        height: 12.778vw;
-        margin-bottom: 0vw;
-        
-        
+    background-color: #2F2F2F;
+    height: 12.778vw;
+    margin-bottom: 0vw;
+
+
 }
+
 .footer2 {
-    
+
     position: relative;
     background-color: #2F2F2F;
     height: 12.778vw;
     top: 60vw;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .links {
     position: absolute;
     left: 4.1vw;
     font-family: 'Wix Madefor Text', sans-serif;
-        font-weight: 500;
-        text-decoration: none;
-        color: #ffffff;
-        list-style: none;
-          
-            display: flex;
-            flex-direction: column;
-            gap: 0.69vw;
-            /* Регулируйте это значение */
-        /* Medium */
-        top: 2.7vw;
-        
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.69vw;
+    /* Регулируйте это значение */
+    /* Medium */
+    top: 2.7vw;
+
 }
 
-.links a{
+.links a {
     color: #ffffff;
     font-size: 1.4vw;
 
 }
-.red {
-            width: 45vw;
-            height: 18.4vw;
-            position: absolute;
-            background-color: red;
-            margin-left: 4.1vw;
-            margin-top: 10.2vw;
-            background-image: url(../images/redpreview.jpg);
-            background-size: contain;
-                /* Поддержка размеров фона */
-                background-repeat: no-repeat;
-        }
-    
- .blue {
-            width: 45vw;
-            height: 18.4vw;
-            position: absolute;
-            background-color: rgb(1, 212, 240);
-            margin-right: 4.1vw;
-            margin-top: 10.2vw;
-            right: 0;
-            /* чтобы margin-right работал */
-            background-image: url(../images/bluepreview.jpg);
-                background-size: contain;
-                /* Поддержка размеров фона */
-                background-repeat: no-repeat;
-        }
-    
-.pink {
-            width: 91vw;
-            height: 22.3vw;
-            position: absolute;
-            background-color: rgb(255, 18, 223);
-            margin-right: 4.1vw;
-            margin-top: 30vw;
-            margin-left: 4.1vw;
-            right: 0;
-            background-image: url(../images/pinkpreview.jpg);
-                background-size: contain;
-                /* Поддержка размеров фона */
-                background-repeat: no-repeat;
-            /* чтобы margin-right работал */   }
 
-.buttonmailsection{
+.red {
+    width: 45vw;
+    height: 18.4vw;
+    position: absolute;
+    background-color: red;
+    margin-left: 3.8vw;
+    margin-top: 10.2vw;
+    background-image: url(../images/redpreview.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Обводка */
+
+}
+
+.blue {
+    width: 45vw;
+    height: 18.4vw;
+    position: absolute;
+    background-color: rgb(1, 212, 240);
+    margin-right: 4.1vw;
+    margin-top: 10.2vw;
+    right: 0;
+    background-image: url(../images/bluepreview.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Обводка */
+
+}
+
+.pink {
+    width: 91vw;
+    height: 22.3vw;
+    position: absolute;
+    background-color: rgb(255, 18, 223);
+    margin-right: 4.1vw;
+    margin-top: 30vw;
+    margin-left: 4.1vw;
+    right: 0;
+    background-image: url(../images/pinkpreview.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Обводка */
+
+
+}
+
+.buttonmailsection {
     position: absolute;
     right: 4.1vw;
     top: 2vw;
 }
+
 .email-input {
     /* Размеры в vw (432px / 1440px = 0.3) */
- width: 30vw;
-/* 432px → 30vw */
- height: 3.47vw;
- right: 17.8vw;
- position: absolute;
- top: 2vw;
-/* 50px → ~3.47vw */
-/* Стилизация */
- padding: 0 1.04vw;
- /* 15px → ~1.04vw */
-font-size: 1.11vw;
-/* 16px → ~1.11vw */
-border: 0.07vw solid #9f9f9f;
-/* 1px → ~0.07vw */
-border-radius: 1vw;
-/* 5px → ~0.35vw */
-font-family: 'Wix Madefor Text', sans-serif;
-outline: none;
-transition: border 0.3s;
+    width: 30vw;
+    /* 432px → 30vw */
+    height: 3.47vw;
+    right: 17.8vw;
+    position: absolute;
+    top: 2vw;
+    /* 50px → ~3.47vw */
+    /* Стилизация */
+    padding: 0 1.04vw;
+    /* 15px → ~1.04vw */
+    font-size: 1.11vw;
+    /* 16px → ~1.11vw */
+    border: 0.07vw solid #9f9f9f;
+    /* 1px → ~0.07vw */
+    border-radius: 1vw;
+    /* 5px → ~0.35vw */
+    font-family: 'Wix Madefor Text', sans-serif;
+    outline: none;
+    transition: border 0.3s;
 }
 
- /* Стили для попапа */
- #successPopup {
-     display: none;
-     position: fixed;
-     top: 0;
-     left: 0;
-     width: 100vw;
-     height: 100vh;
-     background: rgba(0, 0, 0, 0.7);
-     z-index: 1000;
-     justify-content: center;
-     align-items: center;
-     backdrop-filter: blur(0.35vw);
-     /* 5px */
- }
+/* Стили для попапа */
+#successPopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(0.35vw);
+    /* 5px */
+}
 
- .popup-content {
-     width: 27.78vw;
-     /* 400px */
-     padding: 2.78vw;
-     /* 40px */
-     background: white;
-     font-size: 1.4vw;
-     border-radius: 1.39vw;
-     font-family: 'Wix Madefor Text VF', sans-serif;
-        font-variation-settings: 'wght' 300;/* 20px */
-     text-align: center;
-     position: relative;
-     box-shadow: 0 1.04vw 2.78vw rgba(0, 0, 0, 0.2);
-     /* 15px 40px */
-     animation: popIn 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
- }
+.popup-content {
+    width: 27.78vw;
+    /* 400px */
+    padding: 2.78vw;
+    /* 40px */
+    background: white;
+    font-size: 1.4vw;
+    border-radius: 1.39vw;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 300;
+    /* 20px */
+    text-align: center;
+    position: relative;
+    box-shadow: 0 1.04vw 2.78vw rgba(0, 0, 0, 0.2);
+    /* 15px 40px */
+    animation: popIn 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
 
- @keyframes popIn {
-     0% {
-         transform: scale(0.8);
-         opacity: 0;
-     }
+@keyframes popIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
 
-     100% {
-         transform: scale(1);
-         opacity: 1;
-     }
- }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 
- .close-popup {
-     position: absolute;
-     top: 1.04vw;
-     /* 15px */
-     right: 1.04vw;
-     /* 15px */
-     font-size: 1.67vw;
-     /* 24px */
-     color: #888;
-     cursor: pointer;
-     transition: color 0.3s;
-     
- }
+.close-popup {
+    position: absolute;
+    top: 1.04vw;
+    /* 15px */
+    right: 1.04vw;
+    /* 15px */
+    font-size: 1.67vw;
+    /* 24px */
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s;
 
- .close-popup:hover {
-     color: #F25BC9;
- }
-.stick{
+}
+
+.close-popup:hover {
+    color: #F25BC9;
+}
+
+.stick {
     width: 0.5vw;
     height: 7vw;
     background-image: url(../images/stick.svg);
@@ -508,17 +544,424 @@ transition: border 0.3s;
     top: 0.5vw;
     right: 52vw;
 }
-.mailsectionh4{
+
+.mailsectionh4 {
     color: #242424;
-        font-family: 'Wix Madefor Text VF', sans-serif;
-        font-variation-settings: 'wght' 400;
-        /* Регулярное начертание = вес 400 */
-        line-height: 108%;
-        font-size: 1.6vw;
-        text-align: left;
-        width:30vw;
-        left: 4.1vw;
-        line-height: 108%;
-        position: absolute;
-        bottom: 2.4vw;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    /* Регулярное начертание = вес 400 */
+    line-height: 108%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 30vw;
+    left: 4.1vw;
+    line-height: 108%;
+    position: absolute;
+    bottom: 2.4vw;
 }
+
+.h1red {
+    color: #ffffff;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 2vw;
+    width: 50vw;
+    left: 2vw;
+    position: absolute;
+    bottom: 1.7vw;
+}
+
+.h1blue {
+    color: #131313;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 2vw;
+    width: 50vw;
+    left: 2vw;
+    position: absolute;
+    bottom: 1.7vw;
+}
+
+.h1pink {
+    color: #ffffff;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 2vw;
+    width: 50vw;
+    left: 2vw;
+    position: absolute;
+    bottom: 1.7vw;
+}
+
+.h2red {
+    color: #000000;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 4vw;
+    width: 50vw;
+    left: 4.1vw;
+    position: absolute;
+    top: 14vw;
+}
+
+.redsection {
+    background-color: #ffffff;
+    height: 1000vw;
+    position: relative;
+    width: 100vw;
+}
+
+.imgred {
+    width: 91.6vw;
+    height: 41.6vw;
+    background-image: url(../images/imgred.svg);
+    position: absolute;
+    left: 4.1vw;
+    top: 22vw;
+}
+
+.imgblue {
+    width: 91.6vw;
+    height: 41.6vw;
+    background-image: url(../images/imgblue.svg);
+    position: absolute;
+    left: 4.1vw;
+    top: 22vw;
+}
+
+.h4red {
+    color: #000000;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    /* Регулярное начертание = вес 400 */
+    line-height: 108%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 54vw;
+    line-height: 108%;
+    position: absolute;
+    left: 4.1vw;
+    top: 66.5vw;
+
+}
+
+.redsticks {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../images/redsticks.svg);
+    position: absolute;
+    top: 75vw;
+}
+
+.bluesticks {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../images/bluesticks.svg);
+    position: absolute;
+    top: 75vw;
+}
+
+.pinksticks {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../images/pinksticks.svg);
+    position: absolute;
+    top: 75vw;
+}
+
+.h3red {
+    color: #000000;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 3.3vw;
+    width: 30vw;
+    left: 4.1vw;
+    position: absolute;
+    top: 2.7vw;
+
+}
+
+.imgred2 {
+    width: 40.139vw;
+    height: 30vw;
+    background-image: url(../images/imgred2.svg);
+    position: absolute;
+    left: 0vw;
+    top: 93vw;
+}
+
+.imgblue2 {
+    width: 40.139vw;
+    height: 30vw;
+    background-image: url(../images/imgblue2.svg);
+    position: absolute;
+    left: 0vw;
+    top: 93vw;
+}
+
+.imgred3 {
+    width: 23.75vw;
+    height: 34.8vw;
+    background-image: url(../images/imgred3.svg);
+    position: absolute;
+    right: 0vw;
+    top: 109vw;
+}
+
+.imgblue3 {
+    width: 40.139vw;
+    height: 34.8vw;
+    background-image: url(../images/imgblue3.svg);
+    position: absolute;
+    right: -6vw;
+    top: 109vw;
+}
+
+.imgred4 {
+    width: 40.139vw;
+    height: 30vw;
+    background-image: url(../images/imgred4.svg);
+    position: absolute;
+    left: 0vw;
+    top: 125vw;
+}
+
+.imgblue4 {
+    width: 40.139vw;
+    height: 30vw;
+    background-image: url(../images/imgblue4.svg);
+    position: absolute;
+    left: 0vw;
+    top: 125vw;
+}
+
+.h3red2 {
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.2vw;
+    width: 20vw;
+    left: 15.8vw;
+    position: absolute;
+    top: 99vw;
+
+}
+
+.h3red3 {
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.2vw;
+    width: 27vw;
+    right: 15.8vw;
+    position: absolute;
+    top: 114vw;
+
+}
+
+.h3red4 {
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.2vw;
+    width: 26vw;
+    left: 15.8vw;
+    position: absolute;
+    top: 129vw;
+
+}
+
+.redsticks2 {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../images/redsticks.svg);
+    position: absolute;
+    top: 156vw;
+}
+
+.pinksticks2 {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../images/pinksticks.svg);
+    position: absolute;
+    top: 156vw;
+}
+
+.bluesticks2 {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../images/bluesticks.svg);
+    position: absolute;
+    top: 156vw;
+}
+
+.h3red5 {
+    color: #000000;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 3.3vw;
+    width: 30vw;
+    left: 4.1vw;
+    position: absolute;
+    top: 2.8vw;
+}
+
+.redstick {
+    height: 36vw;
+    width: 2vw;
+    background-image: url(../images/redstick.svg);
+    top: 178vw;
+    right: 40vw;
+    position: absolute;
+}
+
+.bluestick {
+    height: 36vw;
+    width: 2vw;
+    background-image: url(../images/bluestick.svg);
+    top: 178vw;
+    right: 40vw;
+    position: absolute;
+}
+
+.h3red6 {
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.2vw;
+    width: 26vw;
+    left: 4.1vw;
+    position: absolute;
+    top: 182vw;
+}
+
+.h3red7 {
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.2vw;
+    width: 26vw;
+    left: 4.1vw;
+    position: absolute;
+    top: 194vw;
+}
+
+.h3red8 {
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.2vw;
+    width: 26vw;
+    left: 4.1vw;
+    position: absolute;
+    top: 206vw;
+}
+
+
+
+.h4red2 {
+    color: #000000;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    /* Регулярное начертание = вес 400 */
+    line-height: 108%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 27vw;
+    line-height: 108%;
+    position: absolute;
+    left: 60vw;
+    top: 182vw;
+
+}
+
+.h4red3 {
+    color: #000000;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    /* Регулярное начертание = вес 400 */
+    line-height: 108%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 27vw;
+    line-height: 108%;
+    position: absolute;
+    left: 60vw;
+    top: 194vw;
+
+}
+
+.h4red4 {
+    color: #000000;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    /* Регулярное начертание = вес 400 */
+    line-height: 108%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 17vw;
+    line-height: 108%;
+    position: absolute;
+    left: 60vw;
+    top: 206vw;
+
+}
+
+.buttonred {
+    top: 220vw;
+    position: absolute;
+    right: 21vw;
+}
+
+/* Измененные блоки CSS (blue → pink) */
+
+.imgpink {
+    width: 91.6vw;
+    height: 41.6vw;
+    background-image: url(../images/imgpink.svg);
+    position: absolute;
+    left: 4.1vw;
+    top: 22vw;
+}
+
+.pinksticks {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../images/pinksticks.svg);
+    position: absolute;
+    top: 75vw;
+}
+
+.imgpink2 {
+    width: 40.139vw;
+    height: 1000vw;
+    background-image: url(../images/imgpink2.svg);
+    position: absolute;
+    left: 0vw;
+    top: 91vw;
+}
+
+.imgpink3 {
+    width: 40.139vw;
+    height: 70vw;
+    background-image: url(../images/imgpink3.svg);
+    position: absolute;
+    right: 0vw;
+    top: 109vw;
+}
+
+.imgpink4 {
+    width: 40.139vw;
+    height: 70vw;
+    background-image: url(../images/imgpink4.svg);
+    position: absolute;
+    left: 0vw;
+    top: 125vw;
+}
+
+.pinksticks2 {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(../images/pinksticks.svg);
+    position: absolute;
+    top: 156vw;
+}
+
+.pinkstick {
+    height: 36vw;
+    width: 2vw;
+    background-image: url(../images/pinkstick.svg);
+    top: 178vw;
+    right: 40vw;
+    position: absolute;
+}
+
+/* Обновленный blue → pink блок */
