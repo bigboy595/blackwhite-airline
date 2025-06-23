@@ -5,11 +5,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HORSE.EDU – образовательное пространство для лошадей</title>
+    <title>Авикомпания Черно-Белый</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <script src="javascripts/main.js"></script>
 </head>
 <body>
+    <div class="bg"></div>
+   
     
+    
+    <body>
+        <!-- Фиксированное меню -->
+        <nav class="fixed-menu">
+            
+                <a class="buttonindex"  href="index.html">Главная</a>
+                <a class="buttonevent" href="eventchoose.html">ивенты</a>
+                <a class="buttonmerch" href="shop.html">мерч</a>
+                <a class="buttonavia"  href="https://bigboy595.github.io/planetrainer/" target="_blank">авиатренажер</a>
+           
+        </nav>
+    
+    <div class="menu"></div>
+    <section class="videosection">
+        
+        <div class="video-container">
+            <!-- Видео элементы -->
+            <video class="video-item active" muted playsinline>
+                <source src="images/video1.mp4" type="video/mp4">
+            </video>
+            <video class="video-item" muted playsinline>
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+            <video class="video-item" muted playsinline>
+                <source src="video3.mp4" type="video/mp4">
+            </video>
+            <video class="video-item" muted playsinline>
+                <source src="video4.mp4" type="video/mp4">
+            </video>
+    
+            <!-- Прогресс бар текущего видео -->
+            <div class="video-progress"></div>
+    
+            <!-- Индикаторы -->
+            <div class="video-indicators">
+                <div class="indicator active" data-video="0"></div>
+                <div class="indicator" data-video="1"></div>
+                <div class="indicator" data-video="2"></div>
+                <div class="indicator" data-video="3"></div>
+            </div>
+        </div>
+        <button class="buttonvideo">Отправиться</button>
+    </section>
+    <section class="citysection">
+      
+        <div class="citybg"></div>
+       
+        <div class="moscow">Москва</div>
+        <div class="spb">Питер</div>
+        <div class="krasnodar">Краснодар</div>
+        <div class="spb2">от 4.931р</div>
+        <div class="moscow2">от 3.513р</div>
+        <div class="krasnodar2">от 8.931р</div>
+    </section>
+    <section class="banner1section">
+        <button class="buttonbanner1">Все направления</button>
+        <div class="banner1h1">лучшие предложения</div>
+        <div class="banner1h4">у нас вы получите максимальное качество за приемлемую цену</div>
+        
+    </section>
+    <section class="banner2section">
+        <div class="banner2h1">наши самолеты</div>
+        <div class="banner2h4">Чёрно-Белая Авиация у нас только пушка-самолёты: быстрые, мощные и безотказные. Экономия, комфорт и скорость без
+        компромиссов. Выбирай крылья выбирай драйв!</div>
+        <button class="buttonbanner2">Отправиться</button>
+    </section>
+    <section class="mailsection">
+        <input type="email" class="email-input" placeholder="Ваш email" id="emailField">
+        <button class="buttonmailsection" id="submitButton">Отправить</button>
+<div class="stick"></div>
+<div class="mailsectionh4">получайте первыми лучшие предложения и актуальные новости</div>
+
+        </section>
+   <div class="footer">
+        <ul class="links">
+            <li><a href="index.html">О нас</a></li>
+            <li><a href="eventchoose.html">Ивенты</a></li>
+            <li><a href="shop.html">Мерч</a></li>
+            <li><a href="#">Авиатренажер</a></li>
+        </ul>
+
+
+    </div>
+    <div id="successPopup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h4 style="color: #F25BC9; margin-bottom: 1.39vw;">Успешно!</h3>
+            <p>Мы отправили письмо на ваш email. Проверьте почту!</p>
+            <div style="margin-top: 1.39vw;">
+                <svg width="3.47vw" height="3.47vw" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z" fill="#4CAF50" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

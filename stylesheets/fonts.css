@@ -1,18 +1,46 @@
-/* Подключение Wix Madefor Display */
+/* Подключение Wix Madefor Display (OTF) */
 @font-face {
     font-family: 'Wix Madefor Display';
-    src: url('/fonts/WixMadeforDisplay-Regular.woff2') format('woff2'),
-        url('/fonts/WixMadeforDisplay-Regular.woff') format('woff');
+    src: url('../fonts/WixMadeforDisplay-Regular.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-/* Подключение Buduj Sans TRIAL */
 @font-face {
     font-family: 'Buduj Sans TRIAL';
-    src: url('/fonts/BudujSansTRIAL-Regular.woff2') format('woff2'),
-        url('/fonts/BudujSansTRIAL-Regular.woff') format('woff');
+    src: url('../fonts/BudujSansTRIAL-Bold.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap; }
+@font-face {
+            font-family: 'PaluiSPDemo-Bold';
+            src: url('../fonts/PaluiSPDemo-Bold\ \(1\).otf') format('woff2');
+            font-weight: bold;
+            font-display: swap;   }
+
+
+ @font-face {
+     font-family: 'Wix Madefor Text';
+     src: url('../fonts/WixMadeforText-Medium.ttf') format('truetype');
+    font-weight: 500;
+                            /* Medium */
+    font-style: normal;
+    font-display: swap;
+                       }
+            
+@font-face {
+font-family: 'Wix Madefor Text';
+src: url('../fonts/WixMadeforText-SemiBold.ttf') format('truetype');
+font-weight: 600;
+                            /* SemiBold */
+font-style: normal;
+font-display: swap;            
+ }
+ @font-face {
+     font-family: 'Wix Madefor Text VF';
+     src: url('../fonts/WixMadeforText-VariableFont_wght.ttf') format('truetype-variations');
+     font-weight: 400 800;
+     /* Диапазон весов */
+     font-display: swap; }
+ 

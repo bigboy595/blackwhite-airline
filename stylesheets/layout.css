@@ -1,0 +1,524 @@
+/* Фиксированное меню */
+body{
+    background-size: contain;
+        /* Поддержка размеров фона */
+        background-repeat: no-repeat;
+background-color: #ff9900;
+width: 100vw;
+}
+*{
+    background-size: contain;
+        /* Поддержка размеров фона */
+        background-repeat: no-repeat;
+}
+.bg{
+    background-image: url(../images/skybg.png);
+        height: 198.889vw;
+        width: 100vw;
+        position: absolute;
+        background-size: contain;
+            /* Поддержка размеров фона */
+            background-repeat: no-repeat;
+            overflow: hidden;
+}
+.moscow{
+    font-family: "Buduj Sans TRIAL";
+    font-size: 4.1vw;
+    position: absolute;
+    top: 18.8vw;
+    left: 42.3vw;
+    color: #ffffff;
+}
+.spb {
+    font-family: "Buduj Sans TRIAL";
+    font-size: 4.1vw;
+    position: absolute;
+    top: 18.8vw;
+    left: 4.1vw;
+    color: #ffffff;
+}
+.krasnodar {
+    font-family: "Buduj Sans TRIAL";
+    font-size: 4.1vw;
+    position: absolute;
+    top: 18.8vw;
+    right: 2vw;
+    color: #ffffff;
+}
+.moscow2 {
+    font-family: "Wix Madefor Text";
+    font-weight: 500;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 23.5vw;
+    left: 42.3vw;
+    color: #f9f9f9;
+}
+
+.spb2 {
+    font-family: "Wix Madefor Text";
+        font-weight: 500;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 23.5vw;
+    left: 4.1vw;
+    color: #f9f9f9;
+}
+
+.krasnodar2 {
+    font-family: "Wix Madefor Text";
+        font-weight: 500;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 23.5vw;
+    right: 19.6vw;
+    color: #f9f9f9;
+}
+
+button {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    height: 3.4vw;
+    min-width: 9.375vw;
+    width: auto;
+    padding: 1.4vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 1.7vw;
+    color: white;
+    background: #F25BC9;
+    top: 0vw;
+    border: none;
+    border-radius: 1vw;
+    /* 8px → ~0.625vw */
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.buttonbanner1{
+    position: absolute;
+    top: -2vw;
+    left: 39.4vw;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25)
+}
+
+.button:hover {
+    background: #3367D6;
+}
+.bg2 {
+    background-image: url(../images/skybg2.jpg);
+    height: 70.556vw;
+    width: 100vw;
+    position: absolute;
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.53);
+    /* Прозрачный фон */
+    height: 5.278vw;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.579);
+
+    /* Эффект размытия */
+    backdrop-filter: blur(10px);
+    /* Уровень размытия */
+    -webkit-backdrop-filter: blur(10px);
+    /* Для Safari */
+
+    /* Дополнительные улучшения */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* Тонкая граница */
+}
+
+/* Стилизация списка меню */
+
+/* Стилизация ссылок */
+.fixed-menu a {
+    color: white;
+    /* Цвет текста */
+    text-decoration: none;
+    /* Убираем подчеркивание */
+   
+            font-family: "PaluiSPDemo-Bold", Arial, sans-serif;   
+    font-size: 1.1vw;
+    top: 2.5vw;
+    transition: 0.3s;
+}
+
+.fixed-menu a:hover {
+    color: #ff9900;
+    /* Цвет при наведении */
+}
+.buttonavia{
+    position: absolute;
+    right: 4.1vw;
+}.buttonmerch {
+    position: absolute;
+    right: 23.3vw;
+}
+.buttonevent{
+    position: absolute;
+    right:32vw;
+}
+.buttonindex {
+    position: absolute;
+    left: 4.1vw;
+}
+/* Отступ для основного контента (чтобы он не скрывался под меню) */
+
+.videosection{
+    height: 51.3vw;
+    background-color: #414141;
+    position: relative;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.video-item.active {
+    opacity: 1;
+}
+
+.video-indicators {
+    position: absolute;
+    bottom: 1vw;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.3vw;
+    z-index: 10;
+}
+
+.indicator {
+    width: 21.5vw;
+    height: 0.2vw;
+    background-color: rgba(255, 255, 255, 0.175);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator.active {
+    background-color: #ff86e9;
+    width: 24vw;
+}
+
+
+.citysection{
+    margin-top: 1.3vw;
+    height: 26.1vw;
+    position: relative;
+    background-size: contain;
+        /* Поддержка размеров фона */
+        background-repeat: no-repeat;
+        overflow: hidden;
+        
+        
+
+}
+.buttonvideo{
+    top: 46vw;
+    position: absolute;
+    right: 4.1vw;
+   
+}
+.citybg{
+    
+        height: 26.1vw;
+      
+    
+        background-image: url(../images/citybg.png);
+}
+.banner1section{
+    margin-top: 1.3vw;
+        height: 39.5vw;
+        left: 0vw;
+        position: relative;
+        background-color: #414141;
+        background-image: url(../images/banner1bg.png);
+}
+.banner1h1{
+    color: #ffffff;
+    font-family: "Buduj Sans TRIAL";
+        font-size: 4.8vw;
+        width: 30vw;
+        left: 4.1vw;
+        position: absolute;
+        bottom: 1.7vw;
+    
+}
+.banner1h4 {
+    color: #ffffff;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+        font-variation-settings: 'wght' 400;
+        /* Регулярное начертание = вес 400 */
+    line-height: 108%;
+    font-size: 1.6vw;
+    text-align: right;
+    width: 26vw;
+    right: 4.1vw;
+    line-height: 108%;
+    position: absolute;
+    bottom: 4.5vw;
+
+}
+.banner2section {
+    margin-top: 1.3vw;
+    height: 53.35vw;
+    position: relative;
+    background-color: #414141;
+    background-image: url(../images/banner2bg.png);
+}
+.banner2h1{
+    color: #ffffff;
+        font-family: "Buduj Sans TRIAL";
+        font-size: 4.8vw;
+        width: 30vw;
+        left: 4.1vw;
+        position: absolute;
+        top: 16vw;
+}
+.banner2h4 {
+    color: #ffffff;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 300;
+    /* Регулярное начертание = вес 400 */
+    line-height: 108%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 28vw;
+    left: 4.1vw;
+    line-height: 108%;
+    position: absolute;
+    bottom: 18vw;
+
+}
+.buttonbanner2{
+    position: absolute;
+    left: 4.1vw;
+    top: 38vw;
+}
+.mailsection {
+    margin-top: 1.3vw;
+    height: 8vw;
+    position: relative;
+    background-color: #ffffff;
+}
+.footer{
+    margin-top: 1.3vw;
+    position: relative;
+        background-color: #2F2F2F;
+        height: 12.778vw;
+        margin-bottom: 0vw;
+        
+        
+}
+.footer2 {
+    
+    position: relative;
+    background-color: #2F2F2F;
+    height: 12.778vw;
+    top: 60vw;
+
+}
+a{
+    text-decoration: none;
+}
+.links {
+    position: absolute;
+    left: 4.1vw;
+    font-family: 'Wix Madefor Text', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        color: #ffffff;
+        list-style: none;
+          
+            display: flex;
+            flex-direction: column;
+            gap: 0.69vw;
+            /* Регулируйте это значение */
+        /* Medium */
+        top: 2.7vw;
+        
+}
+
+.links a{
+    color: #ffffff;
+    font-size: 1.4vw;
+
+}
+.red {
+            width: 45vw;
+            height: 18.4vw;
+            position: absolute;
+            background-color: red;
+            margin-left: 4.1vw;
+            margin-top: 10.2vw;
+            background-image: url(../images/redpreview.jpg);
+            background-size: contain;
+                /* Поддержка размеров фона */
+                background-repeat: no-repeat;
+        }
+    
+ .blue {
+            width: 45vw;
+            height: 18.4vw;
+            position: absolute;
+            background-color: rgb(1, 212, 240);
+            margin-right: 4.1vw;
+            margin-top: 10.2vw;
+            right: 0;
+            /* чтобы margin-right работал */
+            background-image: url(../images/bluepreview.jpg);
+                background-size: contain;
+                /* Поддержка размеров фона */
+                background-repeat: no-repeat;
+        }
+    
+.pink {
+            width: 91vw;
+            height: 22.3vw;
+            position: absolute;
+            background-color: rgb(255, 18, 223);
+            margin-right: 4.1vw;
+            margin-top: 30vw;
+            margin-left: 4.1vw;
+            right: 0;
+            background-image: url(../images/pinkpreview.jpg);
+                background-size: contain;
+                /* Поддержка размеров фона */
+                background-repeat: no-repeat;
+            /* чтобы margin-right работал */   }
+
+.buttonmailsection{
+    position: absolute;
+    right: 4.1vw;
+    top: 2vw;
+}
+.email-input {
+    /* Размеры в vw (432px / 1440px = 0.3) */
+ width: 30vw;
+/* 432px → 30vw */
+ height: 3.47vw;
+ right: 17.8vw;
+ position: absolute;
+ top: 2vw;
+/* 50px → ~3.47vw */
+/* Стилизация */
+ padding: 0 1.04vw;
+ /* 15px → ~1.04vw */
+font-size: 1.11vw;
+/* 16px → ~1.11vw */
+border: 0.07vw solid #9f9f9f;
+/* 1px → ~0.07vw */
+border-radius: 1vw;
+/* 5px → ~0.35vw */
+font-family: 'Wix Madefor Text', sans-serif;
+outline: none;
+transition: border 0.3s;
+}
+
+ /* Стили для попапа */
+ #successPopup {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     background: rgba(0, 0, 0, 0.7);
+     z-index: 1000;
+     justify-content: center;
+     align-items: center;
+     backdrop-filter: blur(0.35vw);
+     /* 5px */
+ }
+
+ .popup-content {
+     width: 27.78vw;
+     /* 400px */
+     padding: 2.78vw;
+     /* 40px */
+     background: white;
+     font-size: 1.4vw;
+     border-radius: 1.39vw;
+     font-family: 'Wix Madefor Text VF', sans-serif;
+        font-variation-settings: 'wght' 300;/* 20px */
+     text-align: center;
+     position: relative;
+     box-shadow: 0 1.04vw 2.78vw rgba(0, 0, 0, 0.2);
+     /* 15px 40px */
+     animation: popIn 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+ }
+
+ @keyframes popIn {
+     0% {
+         transform: scale(0.8);
+         opacity: 0;
+     }
+
+     100% {
+         transform: scale(1);
+         opacity: 1;
+     }
+ }
+
+ .close-popup {
+     position: absolute;
+     top: 1.04vw;
+     /* 15px */
+     right: 1.04vw;
+     /* 15px */
+     font-size: 1.67vw;
+     /* 24px */
+     color: #888;
+     cursor: pointer;
+     transition: color 0.3s;
+     
+ }
+
+ .close-popup:hover {
+     color: #F25BC9;
+ }
+.stick{
+    width: 0.5vw;
+    height: 7vw;
+    background-image: url(../images/stick.svg);
+    position: absolute;
+    top: 0.5vw;
+    right: 52vw;
+}
+.mailsectionh4{
+    color: #242424;
+        font-family: 'Wix Madefor Text VF', sans-serif;
+        font-variation-settings: 'wght' 400;
+        /* Регулярное начертание = вес 400 */
+        line-height: 108%;
+        font-size: 1.6vw;
+        text-align: left;
+        width:30vw;
+        left: 4.1vw;
+        line-height: 108%;
+        position: absolute;
+        bottom: 2.4vw;
+}
