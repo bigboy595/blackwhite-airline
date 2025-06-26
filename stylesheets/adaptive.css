@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+    .videosection {
+        transform: scale(2);
+    }
+
+    .buttonvideo {
+        left: 0vw;
+    }
+
+    .citysection {
+        transform: scale(2);
+        margin-top: 42vw;
+    }
+
+    .banner1section {
+        margin-top: 36vw;
+        transform: scale(2);
+    }
+
+    .banner2section {
+        margin-top: 50vw;
+        transform: scale(2);
+        right: 10vw
+    }
+
+    .banner2h1 {
+        left: 35vw;
+        top: 14vw;
+    }
+
+    .banner2h4 {
+        left: 35vw;
+        bottom: 20vw;
+    }
+
+    .buttonbanner2 {
+        left: 35vw;
+    }
+
+    .banner1h4 {
+        right: 29vw;
+        line-height: 108%;
+        position: absolute;
+        bottom: 6.3vw;
+    }
+
+    .banner1h1 {
+        left: 27vw;
+        position: absolute;
+        bottom: 1.7vw;
+    }
+
+    .bg {
+        transform: scale(2.6);
+    }
+
+    .mailsection {
+        transform: scale(2);
+        height: 14vw;
+        margin-top: 37vw;
+    }
+
+    .email-input {
+        right: 40vw;
+        position: absolute;
+        top: 6vw;
+    }
+
+    .stick {
+        background-image: none;
+    }
+
+    .mailsectionh4 {
+        left: 28vw;
+        line-height: 108%;
+        position: absolute;
+        top: 1.5vw;
+    }
+
+    .popup-content {
+        width: 80vw;
+        padding: 5vw;
+    }
+
+    .close-btn {
+        font-size: 5vw;
+        top: 3vw;
+        right: 3vw;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 2vw;
+        font-size: 3.5vw;
+    }
+
+    .submit-btn {
+        padding: 3vw;
+        font-size: 4vw;
+    }
+
+    .bd {
+        width: 100vw;
+        height: 360vw;
+        overflow: hidden;
+        position: absolute;
+    }
+
+}

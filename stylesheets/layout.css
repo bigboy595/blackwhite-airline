@@ -124,6 +124,19 @@ button {
     overflow: hidden;
 }
 
+.bg3 {
+    background-image: url(../images/skybg2.jpg);
+    height: 100vw;
+    width: 100vw;
+    position: absolute;
+    background-size: cover;
+    /* Теперь изображение заполнит весь блок */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Центрируем изображение */
+
+}
+
 
 .fixed-menu {
     position: fixed;
@@ -135,7 +148,7 @@ button {
     height: 5.278vw;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.579);
-
+    position: relative;
     /* Эффект размытия */
     backdrop-filter: blur(10px);
     /* Уровень размытия */
@@ -148,6 +161,15 @@ button {
 }
 
 /* Стилизация списка меню */
+.buttonindex {
+    position: absolute;
+    left: 4.1vw;
+    width: 3.5vw;
+    top: 1.5vw !important;
+    ;
+    height: 3.5vw;
+    background-image: url(../images/logo.svg);
+}
 
 /* Стилизация ссылок */
 .fixed-menu a {
@@ -185,6 +207,10 @@ button {
 .buttonindex {
     position: absolute;
     left: 4.1vw;
+    width: 3vw;
+    top: -8vw;
+    height: 3vw;
+    background-image: url(../images/logo.svg);
 }
 
 /* Отступ для основного контента (чтобы он не скрывался под меню) */
@@ -366,6 +392,15 @@ button {
     background-color: #2F2F2F;
     height: 12.778vw;
     top: 60vw;
+
+}
+
+.footer3 {
+
+    position: relative;
+    background-color: #2F2F2F;
+    height: 12.778vw;
+    top: 35.2vw;
 
 }
 
@@ -594,15 +629,388 @@ a {
     color: #000000;
     font-family: "Buduj Sans TRIAL";
     font-size: 4vw;
-    width: 50vw;
+    width: 80vw;
     left: 4.1vw;
     position: absolute;
     top: 14vw;
 }
 
+.img {
+    position: absolute;
+    top: 14vw;
+    width: 45.1vw;
+    left: 4.1vw;
+    height: 53.6vw;
+    overflow: hidden;
+    background-size: cover;
+    /* Теперь изображение заполнит весь блок */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-image: url(../images/shoper.jpg);
+}
+
+.img2 {
+    position: absolute;
+    top: 14vw;
+    width: 45.1vw;
+    left: 4.1vw;
+    height: 53.6vw;
+    overflow: hidden;
+    background-size: cover;
+    /* Теперь изображение заполнит весь блок */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-image: url(../images/Hat\ Mockup.png);
+}
+
+.img3 {
+    position: absolute;
+    top: 14vw;
+    width: 45.1vw;
+    left: 4.1vw;
+    height: 53.6vw;
+    overflow: hidden;
+    background-size: cover;
+    /* Теперь изображение заполнит весь блок */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-image: url(../images/kofta.jpg);
+}
+
+.img4 {
+    position: absolute;
+    top: 14vw;
+    width: 45.1vw;
+    left: 4.1vw;
+    height: 53.6vw;
+    overflow: hidden;
+    background-size: cover;
+    /* Теперь изображение заполнит весь блок */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-image: url(../images/Cap\ Mockup.png);
+}
+
+.img5 {
+    position: absolute;
+    top: 14vw;
+    width: 45.1vw;
+    left: 4.1vw;
+    height: 53.6vw;
+    overflow: hidden;
+    background-size: cover;
+    /* Теперь изображение заполнит весь блок */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-image: url(../images/Tumbler\ Bottle\ Mockup\ 1.png);
+}
+
+.img6 {
+    position: absolute;
+    top: 14vw;
+    width: 45.1vw;
+    left: 4.1vw;
+    height: 53.6vw;
+    overflow: hidden;
+    background-size: cover;
+    /* Теперь изображение заполнит весь блок */
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-image: url(../images/T-Shirt\ Mockup.png);
+}
+
+.cardsection {
+    height: 100vw;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.h2card {
+    color: #000000;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 4vw;
+    width: 80vw;
+    left: 50.6vw;
+    position: absolute;
+    top: 14vw;
+}
+
+.product-card {
+    width: 20.83vw;
+    top: 30vw;
+    /* 300px / 1440px */
+    margin: 1.39vw auto;
+    /* 20px / 1440px */
+
+    position: absolute;
+    left: 49.7vw;
+    border-radius: 1.04vw;
+    /* 15px / 1440px */
+    overflow: hidden;
+    color: #000000;
+    background: none;
+    /* 10px 20px / 1440px */
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.product-header {
+    padding: 1.39vw;
+    /* 20px / 1440px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    background: none;
+    font-variation-settings: 'wght' 500;
+
+    color: rgb(0, 0, 0);
+}
+
+.product-title {
+    font-size: 2vw;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    background: none;
+    font-variation-settings: 'wght' 500;
+    /* 18px / 1440px */
+
+}
+
+.arrow {
+    width: 1.39vw;
+    /* 20px / 1440px */
+    height: 1.39vw;
+    /* 20px / 1440px */
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.11vw;
+    /* 16px / 1440px */
+}
+
+.product-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+
+    color: #363636;
+    font-size: 1.11vw;
+    /* 16px / 1440px */
+    line-height: 1.6;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    background: none;
+    font-variation-settings: 'wght' 400;
+    /* 18px / 1440px */
+}
+
+.product-content-inner {
+    padding: 1.39vw;
+    /* 20px / 1440px */
+}
+
+.product-card.active .arrow {
+    transform: rotate(180deg);
+}
+
+.product-card.active .product-content {
+    max-height: 34.72vw;
+    /* 500px / 1440px */
+}
+
+/* Стили для второй карточки */
+.product-card-2 {
+    width: 20.83vw;
+    top: 33vw;
+    /* Расположена ниже первой карточки */
+    position: absolute;
+    left: 49.7vw;
+    margin: 1.39vw auto;
+    border-radius: 1.04vw;
+    overflow: hidden;
+    color: #000000;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+    /* Убедимся, что карточки не перекрываются */
+}
+
+.product-header-2 {
+    padding: 1.39vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    background: none;
+    font-variation-settings: 'wght' 500;
+    color: rgb(0, 0, 0);
+}
+
+.product-title-2 {
+    font-size: 2vw;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    background: none;
+    font-variation-settings: 'wght' 500;
+}
+
+.arrow-2 {
+    width: 1.39vw;
+    height: 1.39vw;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.11vw;
+}
+
+.buttonshop {
+    position: absolute;
+    left: 50.6vw;
+    top: 63.9vw;
+}
+
+.product-content-2 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    color: #595959;
+    font-size: 1.11vw;
+    line-height: 1.6;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    background: none;
+    font-variation-settings: 'wght' 400;
+}
+
+.product-content-inner-2 {
+    padding: 1.39vw;
+}
+
+.product-card-2.active .arrow-2 {
+    transform: rotate(180deg);
+}
+
+.product-card-2.active .product-content-2 {
+    max-height: 34.72vw;
+}
+
+
+
+.h1shop {
+    color: #ffffff;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 5vw;
+    width: 80vw;
+    left: 4.1vw;
+    position: absolute;
+    top: 14vw;
+}
+
+.imgshop {
+    top: 20.3vw;
+    height: 26.1vw;
+    position: relative;
+
+    width: 100vw;
+    background-image: url(../images/imgshop.png);
+}
+
+.h2shop {
+    color: #ffffff;
+    font-family: "Buduj Sans TRIAL";
+    font-size: 4vw;
+    width: 20vw;
+    left: 0vw;
+    position: absolute;
+    top: 0vw;
+}
+
+.txtcont {
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    top: 18vw;
+    left: 8.1vw;
+}
+
+.txtcont2 {
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    top: -2vw;
+    left: 51vw;
+}
+
+.txtcont3 {
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    top: -22vw;
+    left: 82vw;
+}
+
+.txtcont4 {
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    top: 18vw;
+    left: 8.1vw;
+}
+
+.txtcont5 {
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    top: -2vw;
+    left: 44vw;
+}
+
+.txtcont6 {
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    top: -22vw;
+    left: 79vw;
+}
+
+.h4shop {
+    color: #ffffff;
+    font-family: 'Wix Madefor Text VF', sans-serif;
+    font-variation-settings: 'wght' 400;
+    /* Регулярное начертание = вес 400 */
+    line-height: 108%;
+    font-size: 1.6vw;
+    text-align: left;
+    width: 54vw;
+    line-height: 108%;
+    position: absolute;
+    left: 0vw;
+    top: 4vw;
+
+}
+
+.imgshop2 {
+    top: 22.3vw;
+    height: 26.1vw;
+    position: relative;
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    background-image: url(../images/imgshop2.png);
+}
+
 .redsection {
     background-color: #ffffff;
-    height: 1000vw;
+    height: 250vw;
     position: relative;
     width: 100vw;
 }
@@ -625,6 +1033,53 @@ a {
     top: 22vw;
 }
 
+.kepka {
+    width: 24.5vw;
+    height: 25.9vw;
+    position: absolute;
+
+    right: 0vw;
+}
+
+.butil {
+    width: 24.5vw;
+    height: 25.9vw;
+    position: absolute;
+
+    right: 0vw;
+}
+
+.shoper {
+    width: 27vw;
+    height: 25.9vw;
+    position: absolute;
+
+}
+
+.shapka {
+    width: 27vw;
+    height: 25.9vw;
+    position: absolute;
+
+}
+
+
+.kofta {
+    width: 34vw;
+    height: 25.9vw;
+    left: 35vw;
+    position: absolute;
+
+}
+
+.futbolka {
+    width: 32vw;
+    height: 25.9vw;
+    left: 35vw;
+    position: absolute;
+
+}
+
 .h4red {
     color: #000000;
     font-family: 'Wix Madefor Text VF', sans-serif;
@@ -639,6 +1094,12 @@ a {
     left: 4.1vw;
     top: 66.5vw;
 
+}
+
+.shopsection {
+    width: 100vw;
+    overflow: hidden;
+    height: 100vw;
 }
 
 .redsticks {
@@ -922,7 +1383,7 @@ a {
 
 .imgpink2 {
     width: 40.139vw;
-    height: 1000vw;
+    height: 50vw;
     background-image: url(../images/imgpink2.svg);
     position: absolute;
     left: 0vw;
@@ -964,4 +1425,140 @@ a {
     position: absolute;
 }
 
-/* Обновленный blue → pink блок */
+.footerpink {
+    position: absolute;
+    bottom: 0vw;
+    background-color: #2F2F2F;
+    height: 12.778vw;
+    width: 100vw;
+
+}
+
+.back {
+    position: absolute;
+    top: 8.5vw;
+    left: 4.1vw;
+    height: 3vw;
+    width: 3vw;
+    background-image: url(../images/back.svg);
+}
+
+/* Обновнный blue → pink блок */
+/* Стили для формы */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    font-family: "Wix Madefor Text";
+    font-weight: 500;
+}
+
+.popup-content {
+    background: white;
+    padding: 2vw;
+    border-radius: 1vw;
+    width: 30vw;
+    max-width: 500px;
+    position: relative;
+    font-family: "Wix Madefor Text";
+    font-weight: 500;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 1.5vw;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5vw;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8vw;
+    border: 1px solid #ddd;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-family: "Wix Madefor Text";
+    font-weight: 500;
+}
+
+.submit-btn {
+    background: #ff00f2;
+    color: white;
+    border: none;
+    padding: 1vw 2vw;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-size: 1vw;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background: #160f14;
+}
+
+@media (max-width: 768px) {
+    .popup-content {
+        width: 80vw;
+        padding: 5vw;
+    }
+
+    .close-btn {
+        font-size: 5vw;
+        top: 3vw;
+        right: 3vw;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 2vw;
+        font-size: 3.5vw;
+    }
+
+    .submit-btn {
+        padding: 3vw;
+        font-size: 4vw;
+    }
+}
+
+.footertxt1 {
+    position: absolute;
+    top: 5.5vw;
+    width: 30vw;
+    left: 55.1vw;
+    font-size: 1.4vw;
+}
+
+.footertxt2 {
+    position: absolute;
+    top: 3.5vw;
+    width: 30vw;
+    left: 55.1vw;
+    font-size: 1.2vw;
+}
+
+.footertxt3 {
+    position: absolute;
+    top: 3.5vw;
+    width: 30vw;
+    left: 71.8vw;
+    font-size: 1.2vw;
+}
