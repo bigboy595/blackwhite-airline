@@ -148,7 +148,7 @@ button {
     height: 5.278vw;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.579);
-    position: relative;
+    position: fixed;
     /* Эффект размытия */
     backdrop-filter: blur(10px);
     /* Уровень размытия */
